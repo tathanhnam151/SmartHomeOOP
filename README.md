@@ -6,7 +6,9 @@ This program is designed to control devices in a smart house system. The program
 ## Files
 The program consists of three C++ files:
 
-DeviceStatus.cpp: Initializes the status of the devices in the rooms. DeviceControl.cpp: Includes functions that can receive or modify the status of the devices. Main.cpp: The main function that demonstrates the use of the program.
+- DeviceStatus.cpp: Initializes the status of the devices in the rooms. 
+- DeviceControl.cpp: Includes functions that can receive or modify the status of the devices. 
+- Main.cpp: The main function that demonstrates the use of the program.
 
 ## Functionalities
 The program has the following functionalities:
