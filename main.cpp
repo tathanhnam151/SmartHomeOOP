@@ -31,7 +31,10 @@ int main() {
             selectedRoom = &room1;
         } else if (roomChoice == 2) {
             selectedRoom = &room2;
-        } else selectedRoom = NULL;
+        } else {
+            std::cout << "Please enter a valid input!" << std::endl;
+            continue;
+        }
         
         std::cout << "1. Turn on air conditioning" << std::endl;
         std::cout << "2. Turn off air conditioning" << std::endl;
@@ -61,6 +64,7 @@ int main() {
                 break;
             case 6:
                 returnDeviceStatus(*selectedRoom);
+                break;
                 
         }
     }
